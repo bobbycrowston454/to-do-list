@@ -1,7 +1,16 @@
-.bold {
-  font-weight: bold;
-}
-
 .strikethrough {
   text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
+
+.item {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
 }
