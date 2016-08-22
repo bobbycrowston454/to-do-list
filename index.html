@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <div class = "container">
+      <div class="col-sm-6">
+        <h1>To-Do List</h1>
+        <form>
+          <div class= "form-group">
+            <label for="itemInput">Input Your Items</label>
+            <input type="text" class="form-control" name="inputItem" id="itemInput">
+          </div>
+          <input type="checkbox" name="important" id="importantCheck"> Important<br>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+      <div class="col-sm-6">
+        <h1>Your List</h1>
+        <ul id="results"></ul>
+      </div>
+    </div>
+  </body>
+</html>
