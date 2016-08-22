@@ -17,7 +17,7 @@
             <input type="text" class="form-control" name="inputItem" id="itemInput">
           </div>
           <div class="form-group">
-            <label for"noteInput">Notes:</label>
+            <label for"noteInput">Notes (optional):</label>
             <input type="text" class="form-control" id="noteInput">
           </div>
           <input type="checkbox" name="important" id="importantCheck"> Important<br><br>
@@ -26,7 +26,14 @@
       </div>
       <div class="col-sm-6">
         <h1>Your List</h1>
+        <p>Click on an item to mark it off</p>
         <ul id="results"></ul>
+        <button id="removeBtn" class="btn btn-warning">Delete item</button>
+        <button id="noteBtn" class="btn btn-primary">Add note</button>
+        <p class="instructions"><br><br>Click on an item to remove</p>
+        <img class="instructions img-responsive" src="https://media.giphy.com/media/LbGtuww7ZFhgQ/giphy.gif" alt="grumpy cat" />
+        <p class="noteInstructions"><br><br>Click on the item you'd like to add a note to</p>
+        <img class="noteInstructions img-responsive" src="http://67.media.tumblr.com/avatar_7a1655060af6_512.png" alt="bub the cat">
       </div>
     </div>
   </body>

@@ -1,3 +1,15 @@
+img {
+  margin-top: 15px;
+}
+
+.deleteCursor {
+  cursor: url("http://img08.deviantart.net/18f0/i/2011/169/a/5/nyan_cat_cursor_by_strawberrydinosaur-d3j8a6s.gif"), auto;
+}
+
+.noteCursor {
+  cursor: url("http://cursors4.totallyfreecursors.com/thumbnails/cat5.gif"), auto;
+}
+
 .strikethrough {
   text-decoration: line-through;
 }
@@ -13,4 +25,20 @@
 
 .bold {
   font-weight: bold;
+}
+
+.arrow {
+  color: #0645AD;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.instructions {
+  display: none;
+}
+
+.noteInstructions {
+  display: none;
 }
